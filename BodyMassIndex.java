@@ -12,6 +12,6 @@ public class BodyMassIndex {
         else if (bmi <= 25.0) System.out.println("Nornal");
         else if (bmi <= 30.0) System.out.println("Overweight");
         else
-            System.out.println("overweight");
+            System.out.println("Obese");
     }
 }
