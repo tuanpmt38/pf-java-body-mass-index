@@ -4,7 +4,7 @@ public class BodyMassIndex {
         java.util.Scanner sc = new java.util.Scanner(System.in);
         System.out.println("Enter weight: ");
         weight = sc.nextDouble();
-        System.out.println("Enter height");
+        System.out.println("Enter height:");
         height = sc.nextDouble();
         bmi = weight / Math.pow(height, 2);
         if (bmi <= 18.5)
